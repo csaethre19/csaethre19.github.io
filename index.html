@@ -1,21 +1,20 @@
-
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Charlotte Saethre</title>
+	<title>[title]</title>
 		<meta charset="UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<script src="script.js"></script>
-	</head>	
-		<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+		<script src="js/script.js"></script>
+	</head>
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 			<!-- Navigation -->
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container-fluid">
@@ -29,58 +28,38 @@
 					</div>
 					<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home"><span class="glyphicon glyphicon-home"> HOME</span></a></li>
-						<li><a href="#projects"><span class="glyphicon glyphicon-star-empty"> PROJECTS</span></a></li>
-						<li><a href="#about"><span class="glyphicon glyphicon-pencil"> ABOUT</span></a></li>
+						<li><a href="#"><span> MENU ITEM</span></a></li>
+						<li><a href="#"><span>MENU ITEM</span></a></li>
+						<li><a href="#"><span> MENU ITEM</span></a></li>
 					</div>
 				</div>
-				</nav>
+			</nav>
 			
-			<header id="home"><h1>Hi, I'm Charlotte</h1></header>
+			<div class="container-fluid text-center">
+				<!-- Header Section -->
+				<header class="well">
+					<h1>Lorem Ipsum</h1>
+				</header>
+				
+				<!-- Main Content -->
+				<main>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</main>
+				
+				<!-- Footer Section -->
+				<footer>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+						<span class="glyphicon glyphicon-chevron-up"></span>
+					</a>
+				</footer>
+			</div>
 			
-			<div id="projects" class="container text-center intro">
-				<h3 class="projects-heading">Projects</h3>
-				<p>My Projects</p>
-			</div>
-			<hr>
-			<div class="container text-center projects-content">
-				<div class="row">
-					<div class="col-sm-4 projects">
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-					</div>
-					<div class="col-sm-4 projects">
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-					</div>
-					<div class="col-sm-4 projects">
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a><br>
-						<a target= "_blank" href="#"></a>
-					</div>
-				</div>
-			</div>
-
-			<div id="about" class="container-fluid text-center">
-				<h3 class="reflection-heading">About Me</h3>
-			</div>
-
-			<footer class="text-center">
-				<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-				  <span class="glyphicon glyphicon-chevron-up"></span>
-				</a><br><br>
-				<p>Charlotte.Saethre@gmail.com</p>
-			  </footer>
-			  <script>
+			<script>
 				$(document).ready(function(){
-				  // Initialize Tooltip
-				  $('[data-toggle="tooltip"]').tooltip();
+					// Initialize Tooltip
+					$('[data-toggle="tooltip"]').tooltip();
 				})
-				</script>
-		</body>
+			</script>
+	</body>
 </html>
