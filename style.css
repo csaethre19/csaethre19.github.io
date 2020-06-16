@@ -1,0 +1,85 @@
+* {padding: 0; margin: 0; font-family: 'Quicksand', sans-serif; user-select: none;}
+header {
+    background: #00bcd4;
+    min-height: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px;
+    color: #faf4ff;
+    max-width: 100%;
+}
+header img {margin: 40px auto; display: block;}
+h1 {
+    margin-top: 150px;
+    padding: 10px;
+    font-size: 65px;
+    text-align: center;
+}
+h3.projects-heading {
+    color: #00bcd4;
+    letter-spacing: 30px;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+nav.navbar {
+    padding: 0;
+    background: #f3c623;
+    opacity: .9;
+}
+div#myNavbar ul li a {
+    color: #363636;
+    font-size: larger;
+}
+div#myNavbar ul li a:hover {
+    color: #00bcd4;
+    font-weight: bolder;
+}
+.projects {
+    background: #00bcd4;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+a {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+.row {
+    margin: 40px auto;
+}
+div#reflection {
+    background: #00bcd4;
+}
+div.intro p , footer p {
+    color: #00bcd4;
+}
+body {
+    background: #faf4ff;
+}
+p {
+    color: #faf4ff;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 40px;
+    max-width: 600px;
+}
+h3 {
+    margin-top: 100px;
+    color: #faf4ff;
+    font-size: 30px;
+}
+img.spiral-icon {
+    margin-top: 20px;
+    animation:  spin infinite 5s;
+}
+img.rocket-icon {
+    margin-bottom: 40px;
+}
+@keyframes spin {
+    0% {transform: rotate(360deg);}
+}
