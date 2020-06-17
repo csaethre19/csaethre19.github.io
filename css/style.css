@@ -1,6 +1,6 @@
 /* CSS */
 * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Quicksand'; color: black; user-select: none;}
-body {background-image: url(../img/spiration-light.png)}
+body {background-image: linear-gradient(to right, #142850, #00909e);}
 p.lead, p {background-color: white; margin: 20px auto; padding: 40px; max-width: 50%; font-size: 25px; line-height: 45px;}
 header.well, section {background-color: RGB(255, 228, 196, .65); margin: 20px; margin-top: 75px;}
 img {margin: 20px;}
