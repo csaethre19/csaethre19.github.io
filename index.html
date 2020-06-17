@@ -34,19 +34,28 @@
 					</div>
 				</div>
 			</nav>
-			
-			<div class="container-fluid text-center">
+
+			<div class="container text-center">
+							
 				<!-- Header Section -->
 				<header class="well">
-					<h1 class="main-head">Hi, I'm Charlotte <span class="glyphicon glyphicon-flash"></span></h1>
-					<img class="masthead-avatar mb-5 img-thumbnail me" src="img/me.JPG" alt="">
-					<h1 class="sec-head">Junior Software Developer</h1>
+					<div class="row">
+						<div class="col-lg-6">
+							<h1 class="main-head">Hi, I'm Charlotte <span class="glyphicon glyphicon-flash"></span></h1>
+							<h1 class="sec-head">Junior Software Developer</h1>
+							<h2>Salt Lake City, UT</h2>
+						</div>
+						<div class="col-lg-6">
+							<img class="masthead-avatar mb-5 img-thumbnail me" src="img/me.JPG" alt="">
+						</div>
+					</div>
 				</header>
 				
 				<!-- Portfolio Section -->
 				<section id="portfolio">
 					<div class="container-fluid">
 						<h1 class="page-section-heading text-center text-uppercase">Portfolio</h1>
+						<hr>
 						<div class="row">
 							<div class="col-lg-12 ml-auto">
 								<h3>Thanksgiving Recipe Application</h3>
@@ -82,13 +91,14 @@
 				<section id="about">
 					<div class="container-fluid">
 						<h1 class="page-section-heading text-center text-uppercase">About</h1>
+						<hr>
 						<div class="row">
 							<div class="col-lg-12 ml-auto">
 						  	<p class="lead">My name is Charlotte Saethre. I am originally from Minnesota and moved to Salt Lake City, Utah to pursue school. I attended Salt Lake Community College and found a passion for computer science. I will be attending Weber State University in Fall of 2021. </p>
 							</div>
 							<div class="row">
 								<div class="col-lg-12">
-									<img class="mn" src="img/mn.JPG">
+									<img class="mn" src="img/mn.jpg">
 								</div>
 							</div>
 							<div class="row">
@@ -99,10 +109,13 @@
 					  	</div>
 					</div>
 				</section>
-
+					
 				<!-- Contact Section -->
-				<section id="contact">
-					<div class="container">
+				<footer id="contact">
+					<div class="container-fluid">
+						<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+							<span class="glyphicon glyphicon-chevron-up"></span>
+						</a>
 						<h1 class="page-section-heading text-center text-uppercase">Contact</h1>
 						<div class="row">
 							<div class="col-lg-12 ml-auto">
@@ -111,18 +124,13 @@
 								<a class="btn social" href="https://github.com/csaethre19">GitHub</a>
 							</div>
 						</div>
-				</section>
-				<!-- Footer Section -->
-				<footer class="text-center">
-					<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-						<span class="glyphicon glyphicon-chevron-up"></span>
-					</a>
-				</footer>			
-			<script>
-				$(document).ready(function(){
-					// Initialize Tooltip
-					$('[data-toggle="tooltip"]').tooltip();
-				})
-			</script>
+					</footer>	
+			</div>	
+				<script>
+					$(document).ready(function(){
+						// Initialize Tooltip
+						$('[data-toggle="tooltip"]').tooltip();
+					})
+				</script>
 	</body>
 </html>
