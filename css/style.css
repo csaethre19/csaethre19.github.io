@@ -2,16 +2,19 @@
 * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Quicksand'; color: black; user-select: none;}
 body {background-color: #dae1e7;}
 p.lead, p {background-color: white; margin: 20px auto; padding: 40px; max-width: 50%; font-size: 25px; line-height: 45px;}
-header.well, section {background-image: linear-gradient(to right, #142850, #00909e); margin: 20px; margin-top: 75px;}
+header.well, section, footer {background-image: linear-gradient(to right, #142850, #00909e); margin: 20px; margin-top: 75px;}
 img {margin: 20px;}
-h1, h2 {font-weight: bolder;  padding: 10px; color: white; margin-top: 45px;}
-h3 {padding: 40px; font-style: italic;}
-h1.main-head {text-align: left; font-size: 75px;}
-h1.sec-head {text-align: right;}
+h1, h2 {font-weight: bolder; padding: 10px; color:white; margin-top: 45px;}
+h3 {padding: 40px; font-style: italic; color: white;}
+header h1, header h2 {text-align: left; text-align: center;}
+h1.main-head {font-size: 75px; text-align: left;}
 img.me {width: 340px; height: 440px;}
 img.mn {width: 540px; height: 440px; border-radius: 20%;}
 .glyphicon-flash{font-size: 75px;}
 a.link {font-size: 40px;}
+a.btn, h4 {color: white;}
+a:hover, a.btn:hover {color: hotpink; text-decoration: none;}
+.glyphicon-chevron-up {margin-top: 20px;}
 @media (max-width: 1400px) {
     img, p, p.lead {max-width: 85%;}
     img.mn {width: 459px; height: 374px;}
