@@ -1,0 +1,131 @@
+/* CSS */
+* {margin: 0; padding: 0; box-sizing: border-box; user-select: none;}
+body {
+    background-color: #00a8cc; 
+    font-family: sans-serif;
+}
+div#game-board {
+    overflow: hidden; 
+    margin: 40px; 
+    position: absolute; 
+    top: 10%; 
+    right: 33%;
+}
+div[id^="row-"] {clear: both;}
+div[id^="row-"] div {
+    border: 4px solid #005082;
+    height: 200px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    font-size: 75px;
+    cursor: pointer;
+}
+img.chosen {
+    transform: rotate(-15deg);
+    box-shadow: 1px 1px 50px 10px #00a8cc;
+}
+div#row-1 div {border-top: none;}
+div#row-3 div {border-bottom: none;}
+div[id^="row-"] div:first-child {border-left: none;}
+div[id^="row-"] div:last-child {border-right: none;}
+input {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+form {
+    background-color: #ffa41b;
+    border: 4px solid #000839;
+}
+#form-player , #score-board{
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    padding: 40px;
+    margin: 40px auto;
+}
+#form-marker {
+    width: 50%;
+    height: 100%;
+    margin: 100px auto;
+    padding: 10px;
+}
+#form-marker a img {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+#form-marker a img:hover {
+    transform: rotate(-15deg);
+    box-shadow: 1px 1px 50px 10px #00a8cc;
+}
+#form-marker p {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color: #005082;
+    font-size: 25px;
+}
+#markers {
+    display: inline-block;
+    text-align: center;
+}
+div#score-board {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+table {
+    background-color: #ffa41b;
+    border: 2px solid #005082;
+    height: 200px;
+}
+td {
+    width: 125px;
+    height: 125px;
+}
+header {
+    height: 100px; 
+    background-color: #ffa41b;
+}
+header h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    color: #000839;
+    
+}
+button {
+    padding: 10px;
+    margin: 40px;
+    background-color: #ffa41b;
+    color: #000839;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+@media (max-width: 1780px) {
+    div#score-board {top: 70%; left: 8%;}
+}
+@media (max-width: 1430px) 
+{
+    div#game-board div img {width: 70px; height: 70px; margin-top: 10px;}
+    div[id^="row-"] div {
+        height: 140px;
+        width: 115px;
+    }
+}
+@media (max-width: 660px) {
+    div#game-board {
+        top: 20%; 
+        right: 10%;
+    }
+    div#score-board {top: 70%; left: 8%;}
+    table {height: 120px;}
+}

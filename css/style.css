@@ -1,0 +1,17 @@
+/* CSS */
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Quicksand'; color: black; user-select: none;}
+body {background-image: url(../img/spiration-light.png)}
+p.lead, p {background-color: white; margin: 20px auto; padding: 40px; max-width: 50%; font-size: 25px; line-height: 45px;}
+header.well, section {background-color: RGB(255, 228, 196, .65); margin: 20px; margin-top: 75px;}
+img {margin: 20px;}
+h1, h2 {font-weight: bolder;  padding: 10px; color: white; margin-top: 45px;}
+h3 {padding: 40px; font-style: italic;}
+h1.main-head {text-align: left; font-size: 75px;}
+h1.sec-head {text-align: right;}
+img.me {width: 340px; height: 440px;}
+img.mn {width: 540px; height: 440px; border-radius: 20%;}
+.glyphicon-flash{font-size: 75px;}
+a.link {font-size: 40px;}
+@media (max-width: 1400px) {
+    img, p, p.lead {max-width: 85%;}
+}
