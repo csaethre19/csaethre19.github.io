@@ -15,3 +15,6 @@ a.link {font-size: 40px;}
 @media (max-width: 1400px) {
     img, p, p.lead {max-width: 85%;}
 }
+@media (max-width: 650px) {
+    p.lead, p {font-size: 14px; line-height: 18px; max-width: 100%;}
+}
