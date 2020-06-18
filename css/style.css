@@ -22,5 +22,6 @@ a:hover, a.btn:hover {color: hotpink; text-decoration: none;}
 @media (max-width: 650px) {
     p.lead, p {font-size: 14px; line-height: 18px; max-width: 100%;}
     h1.main-head {font-size: 50px;}
+    section, header, footer {margin-left: 0 !important; margin-right: 0 !important; margin-top: 0 !important;}
     img {margin: 0px;}
 }
