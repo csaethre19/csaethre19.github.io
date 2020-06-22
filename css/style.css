@@ -1,28 +1,10 @@
-/* CSS */
-* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Quicksand'; color: black; user-select: none;}
-body {background-color: #dae1e7;}
-p.lead, p {background-color: white; margin: 20px auto; padding: 40px; max-width: 50%; font-size: 25px; line-height: 45px;}
-header.well, section, footer {background-image: linear-gradient(to right, #142850, #00909e); margin: 20px; margin-top: 75px;}
-img {margin: 20px;}
-h1, h2 {font-weight: bolder; padding: 10px; color:white; margin-top: 45px;}
-h3 {padding: 40px; font-style: italic; color: white;}
-header h1, header h2 {text-align: left; text-align: center;}
-h1.main-head {font-size: 75px; text-align: left;}
-img.me {width: 340px; height: 440px;}
-img.mn {width: 540px; height: 440px; border-radius: 20%;}
-.glyphicon-flash{font-size: 75px;}
-a.link {font-size: 40px;}
-a.btn, h4 {color: white;}
-a:hover, a.btn:hover {color: hotpink; text-decoration: none;}
+* {user-select: none; font-family: 'Noto Serif', serif;}
+.intro {margin-top: 100px;}
+img {width: 100%;}
+img.icon {width: auto;}
+img.me {width: 50%;}
+header.well {margin-top: 75px;}
+p.lead {text-align: left; padding: 10px; margin: 40px; font-size: 18px;}
+h2 {padding: 10px; margin: 40px;}
+a:hover, a.btn:hover {text-decoration: none;}
 .glyphicon-chevron-up {margin-top: 20px;}
-@media (max-width: 1400px) {
-    img, p, p.lead {max-width: 85%;}
-    img.mn {width: 459px; height: 374px;}
-}
-@media (max-width: 650px) {
-    p.lead, p {font-size: 14px; line-height: 18px; max-width: 100%;}
-    h1.main-head {font-size: 50px;}
-    section, header, footer {margin-left: 0 !important; margin-right: 0 !important; margin-top: 0 !important;}
-    img {margin: 0px;}
-    .glyphicon-flash {display: none;}
-}
