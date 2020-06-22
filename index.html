@@ -1,136 +1,190 @@
+
 <!doctype html>
 <html lang="en">
-	<head>
+
+<head>
 	<title>Charlotte Saethre</title>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>
-	</head>
-	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-			<!-- Navigation -->
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<div class="container-fluid">
-					<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"></a>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#myPage"><span>HOME</span></a></li>
+					<li><a href="#portfolio"><span>PORTFOLIO</span></a></li>
+					<li><a href="#about"><span>ABOUT</span></a></li>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid text-center">
+
+		<!-- Header Section -->
+		<header class="well">
+			<div class="row">
+				<div class="col-lg-6 intro">
+					<h1 class="main-head">Hi, I'm Charlotte <span class="glyphicon glyphicon-flash"></span></h1>
+					<h2 class="sec-head">Junior Software Developer</h2>
+					<h3>Salt Lake City, UT</h3>
+				</div>
+				<div class="col-lg-6">
+					<img class="masthead-avatar mb-5 img-thumbnail me" src="img/me.JPG" alt="" width="340px"
+						height="440px">
+				</div>
+			</div>
+		</header>
+
+		<!-- Portfolio Section -->
+		<section id="portfolio">
+			<div class="container-fluid">
+				<h1 class="page-section-heading text-center text-uppercase">Portfolio</h1>
+				<hr>
+				<div class="row">
+					<h2>Thanksgiving Recipe Application</h2>
+					<div class="col-md-4 ml-auto">
+						<p class="lead">Developed graphical user interface for a recipe application that provides user
+							capability to add, edit, and compile a list of recipes. This application was built from the
+							ground up as part of a team collaboration for the purpose of implementing the key concepts
+							from CSIS 1410 Object Oriented Programming such as encapsulation, reading and writing from
+							and to a file, serialization, and using generic collections.</p>
 					</div>
-					<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#myPage"><span>HOME</span></a></li>
-						<li><a href="#portfolio"><span>PORTFOLIO</span></a></li>
-						<li><a href="#about"><span>ABOUT</span></a></li>
+					<div class="col-md-4 ml-auto">
+						<img src="img/recipeApp.png">
+					</div>
+					<div class="col-md-4 ml-auto">
+						<p class="lead">Technology used: Eclipse IDE, WindowBuilder, and Java</p>
+						<p class="lead"><a class="link"
+								href="https://github.com/csaethre19/CS1410/tree/master/1410_A10a/src/thanksgiving">The
+								Code</a></p>
 					</div>
 				</div>
-			</nav>
+				<div class="row">
+					<h2>Zodiac Sign Application</h2>
+					<div class="col-md-4 ml-auto">
+						<p class="lead">This project was for fun and was inspired by my interest in astrology. It is a simple
+							graphical user interface that allows for the user to enter there name and birthdate. It will
+							calculate their zodiac sign and give them some information about the sign. This application
+							reads from a file to retreive their sun sign information.</p>
+					</div>
+					<div class="col-md-4 ml-auto">
+						<img src="img/zodiacApp.png">
+					</div>
+					<div class="col-md-4 ml-auto">
+						<p class="lead">Technology used: Eclipse IDE, WindowBuilder, and Java</p>
+						<p class="lead"><a class="link"
+								href="https://github.com/csaethre19/CS1410/tree/master/ZodiacApp/src/zodiac">The
+								Code</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<h2>Tic Tac Toe Web Application</h2>
+					<div class="col-md-4 ml-auto">
+						<p class="lead">From my web development classes my Tic Tac Toe game was the most fun to design and create.
+							This uses JavaScript, HTML, and CSS.</p>
+					</div>
+					<div class="col-md-4 ml-auto">
+						<img src="img/tictactoe.png">
+					</div>
+					<div class="col-md-4">
+						<p class="lead"><a class="link" href="tic-tac-toe/index.html">Check it out here!</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-			<div class="container text-center">
-							
-				<!-- Header Section -->
-				<header class="well">
-					<div class="row">
-						<div class="col-lg-6">
-							<h1 class="main-head">Hi, I'm Charlotte <span class="glyphicon glyphicon-flash"></span></h1>
-							<h1 class="sec-head">Junior Software Developer</h1>
-							<h2>Salt Lake City, UT</h2>
-						</div>
-						<div class="col-lg-6">
-							<img class="masthead-avatar mb-5 img-thumbnail me" src="img/me.JPG" alt="">
-						</div>
-					</div>
-				</header>
-				
-				<!-- Portfolio Section -->
-				<section id="portfolio">
-					<div class="container-fluid">
-						<h1 class="page-section-heading text-center text-uppercase">Portfolio</h1>
-						<hr>
-						<div class="row">
-							<div class="col-lg-12 ml-auto">
-								<h3>Thanksgiving Recipe Application</h3>
-								<p class="lead">Developed graphical user interface for a thanksgiving recipe application. This application was built from the ground up as part of a team collaboration for the purpose of implementing the key concepts from CSIS 1410 Object Oriented Programming such as encapsulation, reading and writing from and to a file, building a Graphical User Interface, and using generic collections.</p>
-								<img src="img/recipeApp.png">
-								<p>This application has four popular thanksgiving recipes that the user can select and view. It reads the recipes from a file to be displayed. The user can add notes to each recipe that will be written to the file when they submit them.</p>
-								<p>Technology used: Eclipse IDE, WindowBuilder, and Java</p>
-								<p><a class="link" href="https://github.com/csaethre19/CS1410/tree/master/1410_A10a/src/thanksgiving">The Code</a></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 ml-auto">
-								<h3>Zodiac Sign Application</h3>
-								<img src="img/zodiacApp.png">
-								<img src="img/zodiacApp2.png">
-								<p>This project was for fun and was inspired by my interest in astrology. It is a simple graphical user interface that allows for the user to enter there name and birthdate. It will calculate their zodiac sign and give them some information about the sign. This application reads from a file to retreive their sun sign information.</p>
-								<p>Technology used: Eclipse IDE, WindowBuilder, and Java</p>
-								<p><a class="link" href="https://github.com/csaethre19/CS1410/tree/master/ZodiacApp/src/zodiac">The Code</a></p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-12 ml-auto">
-								<h3>Tic Tac Toe Web Application</h3>
-								<img src="img/tictactoe.png">
-								<p>From my web development classes my Tic Tac Toe game was the most fun to design and create. This uses JavaScript, HTML, and CSS.</p>
-								<p><a class="link" href="tic-tac-toe/index.html">Check it out here!</a></p>
-							</div>
-						</div>
-					</div>
-				</section>
 
-				<!-- About Section -->
-				<section id="about">
-					<div class="container-fluid">
-						<h1 class="page-section-heading text-center text-uppercase">About</h1>
+		<!-- Resume -->
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 ml-auto">
+						<h1 class="page-section-heading text-center text-uppercase">Resume</h1>
 						<hr>
-						<div class="row">
-							<div class="col-lg-12 ml-auto">
-						  	<p class="lead">My name is Charlotte Saethre. I am originally from Minnesota and moved to Salt Lake City, Utah to pursue school. I attended Salt Lake Community College and found a passion for computer science. I will be attending Weber State University in Fall of 2021. </p>
-							</div>
-							<div class="row">
-								<div class="col-lg-12">
-									<img class="mn" src="img/mn.JPG">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-lg-12 ml-auto">
-									<p class="lead">I am interested in assistive technology and accessibility. I currently work as a service provider for the Disability Resource Center at SLCC. I have learned a variety of assistive software and technologies in this position. I also have a background working in a financial institution, so I have knowledge that is applicable to the financial industry as well. I am interested in backend software development but am familiar with front end and backend web development as well.</p>
-								</div>
-							</div>
-					  	</div>
+						<iframe width="760px" height="500px" src="https://sway.office.com/s/Cm5B5vUKNC4YXPwa/embed"
+							frameborder="0" marginheight="0" marginwidth="0" max-width="100%"
+							sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts"
+							scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen
+							mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
 					</div>
-				</section>
-					
-				<!-- Contact Section -->
-				<footer id="contact">
-					<div class="container-fluid">
-						<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-							<span class="glyphicon glyphicon-chevron-up"></span>
-						</a>
-						<h1 class="page-section-heading text-center text-uppercase">Contact</h1>
-						<div class="row">
-							<div class="col-lg-12 ml-auto">
-								<h4>Charlotte.Saethre@gmail.com</h4>
-								<a class="btn social" href="https://www.linkedin.com/in/charlotte-saethre">LinkedIn</a><br>
-								<a class="btn social" href="https://github.com/csaethre19">GitHub</a>
-							</div>
-						</div>
-					</footer>	
-			</div>	
-				<script>
-					$(document).ready(function(){
-						// Initialize Tooltip
-						$('[data-toggle="tooltip"]').tooltip();
-					})
-				</script>
-	</body>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section id="about">
+			<div class="container-fluid">
+				<h1 class="page-section-heading text-center text-uppercase">About</h1>
+				<hr>
+				<div class="row">
+					<div class="col-md-4 ml-auto">
+						<p class="lead">My name is Charlotte Saethre. I am originally from Minnesota and moved to Salt
+							Lake City, Utah to pursue school. I attended Salt Lake Community College and found a passion
+							for computer science. I will be attending Weber State University in Fall of 2021. </p>
+					</div>
+					<div class="col-md-4">
+						<div>
+							<img class="icon" src="img/code.png" alt=""><br>
+							Icons made by <a href="https://www.flaticon.com/authors/freepik"
+								title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
+								title="Flaticon">www.flaticon.com</a></div>
+					</div>
+
+					<div class="col-md-4 ml-auto">
+						<p class="lead">I am interested in assistive technology and accessibility. I currently work as a
+							service provider for the Disability Resource Center at SLCC. I have learned a variety of
+							assistive software and technologies in this position. I also have a background working in a
+							financial institution, so I have knowledge that is applicable to the financial industry as
+							well. I am interested in backend software development but am familiar with front end and
+							backend web development as well.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<footer id="contact">
+			<div class="container-fluid">
+				<a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+					<span class="glyphicon glyphicon-chevron-up"></span>
+				</a>
+				<h1 class="page-section-heading text-center text-uppercase">Contact</h1>
+				<div class="row">
+					<div class="col-lg-12 ml-auto">
+						<h4>Charlotte.Saethre@gmail.com</h4>
+						<a class="btn social" href="https://www.linkedin.com/in/charlotte-saethre">LinkedIn</a><br>
+						<a class="btn social" href="https://github.com/csaethre19">GitHub</a>
+					</div>
+				</div>
+		</footer>
+	</div>
+	<script>
+		$(document).ready(function () {
+			// Initialize Tooltip
+			$('[data-toggle="tooltip"]').tooltip();
+		})
+	</script>
+</body>
+
 </html>
