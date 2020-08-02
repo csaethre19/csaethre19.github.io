@@ -8,6 +8,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.resume-border {
+  border-bottom: 2px solid lightblue;
+  padding: 20px;
+}
+.col-lg-4 {
+  margin-top: 50px;
+}
+.col-lg-12 {
+  margin: 20px;
+}
 .owl-carousel {
   height: 600px;
   max-width: 600px;
