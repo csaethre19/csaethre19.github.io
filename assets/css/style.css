@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+i.logo {
+  font-size: 4rem;
+  padding: 20px;
+}
+.expected{
+  margin-left: 23px !important;
+  font-style: italic;
+  font-size: 16px;
+}
 .resume-border {
   border-bottom: 2px solid lightblue;
   padding: 20px;
