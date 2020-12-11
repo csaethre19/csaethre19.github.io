@@ -4,7 +4,7 @@
 }
 .row, footer {margin-top: 100px;}
 ul li {padding: 10px; margin: 0;}
-.logo {font-size: 4rem; padding: 10px;}
+.logo {font-size: 4rem; padding: 2px;}
 @media (max-width: 600px) {
     .col-lg-6 {margin-top: 40px;}
     #about {margin-bottom: 100px; margin-top: 75px;}
