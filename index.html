@@ -20,19 +20,23 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <div class="main-wrap">
-        <header>
-            <div class="logo">
-                <h1>Charlotte Saethre</h1>
-            </div>
-        </header>
 
+    <header>
+        <div class="logo">
+            <h1>Charlotte Saethre</h1><br>
+            <p>Student of Computer Engineering</p>
+            <p>Salt Lake City, UT</p>
+            <p>Charlotte.Saethre@gmail.com</p>
+        </div>
+    </header>
+
+    <div class="main-wrap">
         <!-- Navigation -->
-        <nav class="main-nav navbar">
-            <ul>
-                <li class="first"><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav id="navbar" class="main-nav navbar">
+            <ul class="navbar">
+                <li><b><a href="#about">About</a></b></li>
+                <li><b><a href="#projects">Projects</a></b></li>
+                <li><b><a href="#contact">Contact</a></b></li>
             </ul>
         </nav>
 
@@ -190,7 +194,6 @@
             </div>
         </main>
 
-
         <footer id="contact" class="container-fluid text-center">
             <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="Home">
                 <span class="glyphicon glyphicon-chevron-up"></span></a><br><br>
@@ -208,6 +211,28 @@
         </footer>
 
         <script>
+            window.onscroll = function () { myFunction() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+            $(document).ready(function () {
+
+                $('ul.navbar > li > b > a')
+                    .click(function (e) {
+                        $('ul.navbar > li > b > a')
+                            .removeClass('active');
+                        $(this).addClass('active');
+                    });
+            });
+
             $(document).ready(function () {
                 // Initialize Tooltip
                 $('[data-toggle="tooltip"]').tooltip();
