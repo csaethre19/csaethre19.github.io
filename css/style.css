@@ -56,7 +56,7 @@ a {color: rgba(148,187,233,1); }
 a:hover {text-decoration: none; color: rgba(238,174,202,1);}
 .logo {font-size: 4rem; padding: 2px;}
 
-iframe {display: block; margin: auto; margin-top: 5em; margin-bottom: 5em;}
+iframe, .earthquake-pic {display: block; margin: auto; margin-top: 5em; margin-bottom: 5em; width: 120%;}
 
 .social-media {padding: 25px;}
 
