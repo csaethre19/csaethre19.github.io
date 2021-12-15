@@ -8,7 +8,7 @@ body {background: rgb(238,174,202);
 header h1 { font-size: 48pt; text-align: center; color: white; margin-top: 2em; letter-spacing: 8px; animation: animate-name 3s 1;}
 header {margin-top: 2em; margin-bottom: 6em;}
 header p {color: white; text-align: center; font-size: 18pt;}
-
+h2 {text-align: center;}
 /* Navigation */
 #nav {overflow: none;}
 nav ul 
@@ -56,7 +56,7 @@ a {color: rgba(148,187,233,1); }
 a:hover {text-decoration: none; color: rgba(238,174,202,1);}
 .logo {font-size: 4rem; padding: 2px;}
 
-iframe, .earthquake-pic {display: block; margin: auto; margin-top: 5em; margin-bottom: 5em; width: 120%;}
+iframe {display: block; margin: auto; margin-top: 5em; margin-bottom: 5em; width: 120%;}
 
 .social-media {padding: 25px;}
 
